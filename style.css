@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+}
+header {
+  text-align: center;
+  color: white;
+  height: 300px;
+}
+header img {
+  height: 140px;
+
+  margin-top: 20px;
+}
+header h2 {
+  margin: 20px 0%;
+}
+header p {
+  font-size: 22px;
+}
+#content {
+  background-color: aliceblue;
+}
+main {
+  width: 100%;
+  left: 50%;
+  transform: translatex(-50%);
+  position: absolute;
+  background-color: red;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+#buttons img {
+  width: 45px;
+  height: 45px;
+  margin: 0 15px;
+}
