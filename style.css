@@ -1,18 +1,20 @@
-* {
+/* * {
   margin: 0px;
-}
+} */
 header {
   text-align: center;
   color: white;
   height: 300px;
 }
 header img {
+  margin-top: 20px;
   height: 140px;
 
   margin-top: 20px;
 }
 header h2 {
   margin: 20px 0%;
+  font-size: 35px;
 }
 header p {
   font-size: 22px;
@@ -21,11 +23,11 @@ header p {
   background-color: aliceblue;
 }
 main {
-  width: 100%;
+  width: 360px;
   left: 50%;
   transform: translatex(-50%);
   position: absolute;
-  background-color: red;
+  /* background-color: red; */
 }
 #buttons {
   display: flex;
@@ -36,4 +38,59 @@ main {
   width: 45px;
   height: 45px;
   margin: 0 15px;
+}
+
+#volume {
+  text-align: center;
+}
+
+#volume input {
+  width: 100%;
+}
+
+input[type="range" i] {
+  -webkit-appearance: none;
+  background: #e6e7e8;
+  height: 4px;
+  margin: 0%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #f65b79;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+h2 {
+  margin: 15px 0;
+}
+
+#color {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#color button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  
+}
+
+#color1{
+  background: rgba(39,39,37,1);
+}
+
+#color2{
+  background-image:linear-gradient(to right,#ff9966,#ff5e62);
+}
+
+#color3{
+  background: rgba(243,81,81);
+}
+
+#color4{
+  background: rgba(61,141,210);
 }

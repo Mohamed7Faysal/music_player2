@@ -20,9 +20,23 @@
           <img id="next" src="img/next.png" />
           <audio id="audio_file" src="audio/018.mp3"></audio>
         </article>
+        <article id="volume">
+          <h2>الصوت</h2>
+          <input type="range" id="volume_range" />
+          <h2>السرعة</h2>
+          <input type="range" id="volume_speed" max="200" min="0" />
+        </article>
+        <article id="color">
+          <button id="color1"></button>
+          <button id="color2"></button>
+          <button id="color3"></button>
+          <button id="color4"></button>
+        </article>
       </div>
     </main>
 
+    <script src="volume.js"></script>
+    <script src="color.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
